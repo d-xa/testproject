@@ -8,4 +8,13 @@ test:
 lint:
 	pylint --disable=R,C *.py
 
-all: install lint test
+package:
+	python setup.py sdist bdist_wheel
+
+develop:
+	python setup.py develop
+
+clean:
+	python setup.py clean --all
+
+all: install lint test package
