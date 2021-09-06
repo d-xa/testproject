@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import unittest
-from hello import *
+from hello import hello
 
 class Testing(unittest.TestCase):
     def test_string(self):
