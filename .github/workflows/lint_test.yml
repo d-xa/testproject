@@ -19,3 +19,6 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         make lint
+    - name: Unit testing
+      run: |
+        make test
