@@ -2,6 +2,9 @@ install:
 	pip install --upgrade pip &&\
 	pip install -r requirements.txt
 
+style:
+	pycodestyle *.py
+
 test:
 	pytest test*.py
 
