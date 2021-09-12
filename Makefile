@@ -1,3 +1,8 @@
+PROJECT := $(shell basename $(PWD))
+
+venv:
+	python3 -m venv .venv_${PROJECT}
+
 install:
 	pip install --upgrade pip &&\
 	pip install -r requirements.txt
