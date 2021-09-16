@@ -3,9 +3,8 @@
 
 ## 1. Create and activate python virtual environment
 ```
-ENV_DIR=.venv_testproject
-python3 -m venv ${ENV_DIR}
-. ${ENV_DIR}/bin/activate
+python3 -m venv .venv
+. .venv/bin/activate
 ``` 
 
 ## 2. Make use of make
