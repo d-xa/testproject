@@ -39,4 +39,8 @@ Define alias to activate venv faster
 ```
 echo "alias vactivate='. .venv/bin/activate'" | tee -a ~/.bashrc
 bash ~/.bashrc 
+# activate venv
+vactivate
 ```
+
+
