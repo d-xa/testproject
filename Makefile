@@ -1,7 +1,5 @@
-PROJECT := $(shell basename $(PWD))
-
 venv:
-	python3 -m venv .venv_${PROJECT}
+	python3 -m venv .venv
 
 install:
 	pip install --upgrade pip &&\

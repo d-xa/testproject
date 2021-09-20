@@ -1,6 +1,5 @@
 # Python testproject
 
-
 ## 1. Create and activate python virtual environment
 ```
 python3 -m venv .venv
@@ -32,4 +31,12 @@ make develop
 
 # to clean up build
 make clean
+```
+
+## Tips
+
+Define alias to activate venv faster
+```
+echo "alias vactivate='. .venv/bin/activate'" | tee -a ~/.bashrc
+bash ~/.bashrc 
 ```
